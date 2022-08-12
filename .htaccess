@@ -1,0 +1,5 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_URI} !(system_source/|dosyalar/)
+RewriteRule ^Indir/(.*)/ cse_h4ux5alir.php?File=$1 [L,NC]
